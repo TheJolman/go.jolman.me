@@ -13,6 +13,13 @@
 	"upload_source_maps": true,
 	"compatibility_flags": [
 		"nodejs_compat"
+	],
+	"workers_dev": false,
+	"routes": [
+		{
+			"pattern": "go.jolman.me",
+			"custom_domain": true
+		}
 	]
 	/**
 	 * Smart Placement
